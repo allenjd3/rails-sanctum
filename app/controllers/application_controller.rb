@@ -2,6 +2,12 @@ class ApplicationController < ActionController::Base
 
   before_action :check_csrf
 
+  def authenticate_user
+    if session[:user_id].nil?
+      render json: { error: 'You must be logged in to do that' }, status: :unauthorized
+    end
+  end
+
   private
 
   def check_csrf

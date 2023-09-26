@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample application that demonstrates how to use breeze-nextjs with rails.
 
-Things you may want to cover:
+This is for fun only- use at your own risk!
 
-* Ruby version
+Steps covered in this lesson:
+1. Install rails- with bcrypt, factory_bot_rails and faker (and rack-cors)
+2. Install breeze next
+3. Add and seed users
+4. Disable csrf protection-
+    1. Create cookie decrypt function on application_controller
+    2. Make sure you use secure comparison to prevent timing attacks
+5. Create csrf endpoint- sanctum/csrf-cookie
+6. Create login endpoint
+7. Create api/user endpoint- create before_action authenticate user
+8. Create logout endpoint
+9. Test it live
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Video tutorial- 
