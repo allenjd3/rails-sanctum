@@ -17,4 +17,4 @@ Steps covered in this lesson:
 8. Create logout endpoint
 9. Test it live
 
-Video tutorial- 
+Video tutorial- https://youtu.be/_o6mzaSvDpg
